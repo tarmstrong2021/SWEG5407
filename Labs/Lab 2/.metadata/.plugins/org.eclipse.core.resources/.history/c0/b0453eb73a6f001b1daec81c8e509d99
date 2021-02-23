@@ -1,0 +1,59 @@
+
+
+import javax.swing.JOptionPane;
+
+
+public class PayCheck {
+
+public static void main(String[] args) {
+	// TODO Auto-generated method stub
+	
+  
+    String firstName;
+    String lastName;
+    double grossPay;
+    double federalTax;
+    double stateTax;
+    double socialSecurity;
+    double medicare;
+    double pensionPlan;
+    int healthInsurance;
+    double netPay;
+    
+    
+    String calculator = "Monthly Paycheck Calculator";
+    
+    firstName = JOptionPane.showInputDialog(null, "Please enter employee's first name", calculator, JOptionPane.INFORMATION_MESSAGE);
+    lastName = JOptionPane.showInputDialog(null, "Please enter employee's last name", calculator, JOptionPane.INFORMATION_MESSAGE);
+    grossPay = Double.parseDouble(JOptionPane.showInputDialog(null, "Please enter employee's gross pay", calculator, JOptionPane.INFORMATION_MESSAGE));
+    
+   federalTax = grossPay *.15;
+   stateTax = grossPay * .035;
+   socialSecurity = grossPay * .0575;
+   medicare = grossPay * .0275;
+   pensionPlan = grossPay * .05;
+   healthInsurance = 75;
+   
+   netPay = grossPay - federalTax - stateTax - socialSecurity - medicare - pensionPlan - healthInsurance;
+   
+   System.out.println(netPay);
+    
+   // total = numOfPizzas * (basePrice + (numOfToppings*toppingPrice));
+    
+   // finalTotal = total*.85;
+    
+   // JOptionPane.showMessageDialog(null,  "Customer Name: " + custName +
+   // 		"\nNumber of Pizzas: " + numOfPizzas +
+   // 		"\nNumber of Toppings on each pizza: " + numOfToppings +
+   // 		"\nTotal ($): " + total + 
+   // 		"\nDiscount ($): " + .15*total + 
+   // 		"\nFinal Total ($): " + finalTotal, 
+   // 		storeName, JOptionPane.INFORMATION_MESSAGE);
+
+    System.out.println(firstName);
+    System.out.println(lastName);
+    System.out.println(grossPay);
+}
+
+}
+

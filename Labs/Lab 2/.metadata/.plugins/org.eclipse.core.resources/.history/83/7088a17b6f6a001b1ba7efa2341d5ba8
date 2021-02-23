@@ -1,0 +1,15 @@
+
+public class StringOperations {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String str = ("Welcome to SWEG5407");
+		
+		System.out.println("Length is " + str.length());
+		System.out.println(str.charAt(6));
+		System.out.println(str.indexOf("SW407"));
+
+	}
+
+}

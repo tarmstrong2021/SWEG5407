@@ -1,0 +1,43 @@
+
+
+import javax.swing.JOptionPane;
+
+
+public class PayCheck {
+
+public static void main(String[] args) {
+	// TODO Auto-generated method stub
+	
+  
+    String firstName;
+    String lastName;
+    double employeeGrossPay;
+    
+    String calculator = "Monthly Paycheck Calculator";
+    
+    firstName = JOptionPane.showInputDialog(null, "Please enter employee's first name", calculator, JOptionPane.INFORMATION_MESSAGE);
+    lastName = JOptionPane.showInputDialog(null, "Please enter employee's last name", calculator, JOptionPane.INFORMATION_MESSAGE);
+   employeeGrossPay = Double.parseDouble(JOptionPane.showInputDialog(null, "Please enter employee's last name", calculator, JOptionPane.INFORMATION_MESSAGE));
+    
+   // int numOfPizzas = Integer.parseInt(JOptionPane.showInputDialog(null, "Enter number of Pizzas", storeName, JOptionPane.INFORMATION_MESSAGE));
+   // int numOfToppings =  Integer.parseInt(JOptionPane.showInputDialog(null, "Enter number of Toppings", storeName,  JOptionPane.INFORMATION_MESSAGE));
+    
+   // total = numOfPizzas * (basePrice + (numOfToppings*toppingPrice));
+    
+   // finalTotal = total*.85;
+    
+   // JOptionPane.showMessageDialog(null,  "Customer Name: " + custName +
+   // 		"\nNumber of Pizzas: " + numOfPizzas +
+   // 		"\nNumber of Toppings on each pizza: " + numOfToppings +
+   // 		"\nTotal ($): " + total + 
+   // 		"\nDiscount ($): " + .15*total + 
+   // 		"\nFinal Total ($): " + finalTotal, 
+   // 		storeName, JOptionPane.INFORMATION_MESSAGE);
+
+    System.out.println(firstName);
+    System.out.println(lastName);
+    System.out.println(employeeGrossPay);
+}
+
+}
+

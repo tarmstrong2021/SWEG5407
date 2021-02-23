@@ -1,0 +1,42 @@
+
+public class OperatorDemo {
+
+	public static void main(String[] args) {
+		
+		// Operators and Precedence
+		//int a = 10;
+		//int b = 5;
+		
+		//System.out.println("a+b = " + (a+b) );
+		//System.out.println("a-b = " + (a-b) );
+		//System.out.println("a*b = " + (a*b) );
+		//System.out.println("a/b = " + (a/b) );
+		//System.out.println("a%b = " + (a%b) );
+		
+		//System.out.println(3 + 7 - 6 + 2 * 5 / 4 +6);
+		
+		// String Concatenation
+		String fName = "Tom";
+		String lName = "Armstrong";
+		
+		System.out.println(fName + " " + lName);
+		
+		// Implicit and Explicit Casting
+		//System.out.println(10/4);
+		
+		//System.out.println(3 / 2.0 + 5.0);
+		
+		//Difference between Primitive and Reference Variable
+		int x = 10;
+		String str = "Java";
+		
+		System.out.println(str.length());
+		System.out.println(str.toUpperCase());
+		
+		// add 2 more string operations here
+		System.out.println(str.toLowerCase());
+		System.out.println(str.isEmpty());
+		
+	}
+
+}

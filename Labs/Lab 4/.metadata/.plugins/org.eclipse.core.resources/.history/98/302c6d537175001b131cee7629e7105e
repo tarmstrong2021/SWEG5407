@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class CounterLoopDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//to sum 5 numbers
+		
+		Scanner console = new Scanner(System.in);
+		System.out.println("Enter a number: ");
+		int num1 = console.nextInt();
+		
+		System.out.println("Enter a number: ");
+		int num2 = console.nextInt();
+		
+		System.out.println("Enter a number: ");
+		int num3 = console.nextInt();
+		
+		System.out.println("Enter a number: ");
+		int num4 = console.nextInt();
+		
+		System.out.println("Enter a number: ");
+		int num5 = console.nextInt();
+		
+		System.out.println(num1 + num2 + num3 + num4 +num5);
+		
+	}
+
+}
