@@ -1,6 +1,3 @@
-
-public class calculateGrade {
-
 	public char letterGrade (double num) {
 		
 		char finalGrade;
@@ -21,4 +18,3 @@ public class calculateGrade {
 		
 	}
 	
-}
